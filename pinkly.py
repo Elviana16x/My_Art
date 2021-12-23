@@ -67,7 +67,6 @@ class Pikachu:
 
         t.fillcolor('#88141D')
         t.begin_fill()
-        # 下嘴唇
         l1 = []
         l2 = []
         t.seth(190)
@@ -88,8 +87,6 @@ class Pikachu:
             t.fd(a)
             l2.append(t.position())
 
-        # 上嘴唇
-
         t.seth(10)
         t.circle(50, 15)
         t.left(180)
@@ -102,7 +99,6 @@ class Pikachu:
         t.circle(50, 12.1)
         t.end_fill()
 
-        # 舌头
         self.noTrace_goto(17, 54)
         t.fillcolor('#DD716F')
         t.begin_fill()
@@ -194,7 +190,6 @@ class Pikachu:
 
         t.fillcolor('#F6D02F')
         t.begin_fill()
-        # 右脸轮廓
         t.penup()
         t.circle(130, 40)
         t.pendown()
@@ -202,18 +197,15 @@ class Pikachu:
         t.left(180)
         t.circle(-100, 5)
 
-        # 右耳朵
         t.seth(20)
         t.circle(300, 30)
         t.circle(30, 50)
         t.seth(190)
         t.circle(300, 36)
 
-        # 上轮廓
         t.seth(150)
         t.circle(150, 70)
 
-        # 左耳朵
         t.seth(200)
         t.circle(300, 40)
         t.circle(30, 50)
@@ -221,13 +213,11 @@ class Pikachu:
         t.circle(300, 35)
         # print(t.pos())
 
-        # 左脸轮廓
         t.seth(240)
         t.circle(105, 95)
         t.left(180)
         t.circle(-105, 5)
 
-        # 左手
         t.seth(210)
         t.circle(500, 18)
         t.seth(200)
@@ -260,7 +250,6 @@ class Pikachu:
         t.seth(250)
         t.circle(100, 65)
 
-        # 左脚
         t.seth(320)
         t.circle(100, 5)
         t.left(180)
@@ -283,7 +272,6 @@ class Pikachu:
         t.seth(10)
         t.circle(100, 60)
 
-        # 横向
         t.seth(180)
         t.circle(-100, 10)
         t.left(180)
@@ -295,7 +283,6 @@ class Pikachu:
         t.left(180)
         t.circle(-100, 10)
 
-        # 右脚
         t.seth(290)
         t.circle(100, 55)
         t.circle(10, 50)
@@ -319,7 +306,6 @@ class Pikachu:
         t.seth(100)
         t.circle(100, 40)
 
-        # 右侧身体轮廓
         t.seth(200)
         t.circle(-100, 5)
         t.left(180)
@@ -331,7 +317,6 @@ class Pikachu:
         t.left(180)
         t.circle(300, 3)
 
-        # 右手
         t.seth(43)
         t.circle(200, 60)
 
@@ -363,7 +348,6 @@ class Pikachu:
         t.circle(-5, 160)
         t.fd(5)
 
-        # 手指纹
         self.noTrace_goto(166, 130)
         t.seth(-90)
         t.fd(3)
@@ -374,7 +358,6 @@ class Pikachu:
         t.circle(-4, 180)
         t.fd(3)
 
-        # 尾巴
         self.noTrace_goto(168, 134)
         t.fillcolor('#F6D02F')
         t.begin_fill()
@@ -401,7 +384,6 @@ class Pikachu:
         t.circle(100, 25)
         t.right(15)
         t.circle(-300, 2)
-        ##############
         # print(t.pos())
         t.seth(30)
         t.fd(40)
@@ -417,7 +399,6 @@ class Pikachu:
         t.fd(10)
         t.end_fill()
 
-        # 尾巴花纹
         t.fillcolor('#923E24')
         self.noTrace_goto(126.82, -156.84)
         t.begin_fill()
@@ -454,7 +435,6 @@ class Pikachu:
         t.circle(-300, 2)
         t.end_fill()
 
-        # 帽子、眼睛、嘴巴、脸颊
         self.cap(-134.07, 147.81)
         self.mouth(-5, 25)
         self.leftCheek(-126, 32)
