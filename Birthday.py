@@ -7,7 +7,7 @@ up()
 goto(-150,350)
 down()
 color("magenta")
-write("@Elviana", font=("Verdana",15,"bold"))
+write("Elviana", font=("Verdana",15,"bold"))
 
 up()
 goto(-270,-350)
